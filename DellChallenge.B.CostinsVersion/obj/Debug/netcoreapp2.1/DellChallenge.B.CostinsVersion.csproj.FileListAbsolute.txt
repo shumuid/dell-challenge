@@ -1,0 +1,11 @@
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.csproj.CoreCompileInputs.cache
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.AssemblyInfoInputs.cache
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.AssemblyInfo.cs
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\bin\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.deps.json
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\bin\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.runtimeconfig.json
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\bin\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.runtimeconfig.dev.json
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\bin\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.dll
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\bin\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.pdb
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.dll
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.pdb
+D:\Dell\DellChallenge\DellChallenge.B.CostinsVersion\obj\Debug\netcoreapp2.1\DellChallenge.B.CostinsVersion.csprojAssemblyReference.cache

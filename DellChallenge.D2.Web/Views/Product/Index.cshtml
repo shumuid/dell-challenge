@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DellChallenge.D2.Web.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "View";
+}
+<h4>All Products</h4>
+<hr />
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name 
+                </td>
+                <td>
+                    @item.Category
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                        Delete
+                    </a>
+                    <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-primary">
+                        Update
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
