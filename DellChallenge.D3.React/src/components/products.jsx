@@ -11,9 +11,8 @@ class Products extends Component {
   };
 
   async componentDidMount() {
-    //this is where we initialize object from server calls
-
-    const { data: products } = await getProducts();
+    //this is where we initialize objects from server calls
+    const {data: products} = await getProducts();
 
     this.setState({ products });
   }
@@ -43,17 +42,14 @@ class Products extends Component {
     this.props.history.push("/products/new");
   };
 
-  getPagedData = () => {
+  getSortedData = () => {
     const {
       products: allProducts,
       sortColumn
     } = this.state;
 
-    //filter data could do a search filter logic here
-    let filtered = allProducts;
-
     //sort data
-    const sorted = _.orderBy(filtered, [sortColumn.path], [sortColumn.order]);
+    const sorted = _.orderBy(allProducts, [sortColumn.path], [sortColumn.order]);
 
     return { data: sorted, totalCount: sorted.length };
   };
@@ -67,7 +63,7 @@ class Products extends Component {
 
     if (products_no === 0) return <p>There are no products in the database.</p>;
 
-    const { totalCount, data: products } = this.getPagedData();
+    const { totalCount, data: products } = this.getSortedData();
 
     return (
       <div className="row mt-2">

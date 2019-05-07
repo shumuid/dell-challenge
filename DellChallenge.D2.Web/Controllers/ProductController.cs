@@ -38,7 +38,8 @@ namespace DellChallenge.D2.Web.Controllers
 
             return View(newProduct);
         }
-
+		
+		[HttpGet]
         public ActionResult Delete(int id)
         {
             var model = _productService.Get(id);
@@ -53,7 +54,8 @@ namespace DellChallenge.D2.Web.Controllers
 
             return RedirectToAction("Index");
         }
-
+		
+		[HttpGet]
         public ActionResult Update(int id)
         {
             var model = _productService.Get(id);
